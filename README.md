@@ -14,3 +14,8 @@ alt + shift + s : abrir pestaña para crear contructores , toString , get  /set 
 ctrl + d = delete line 
 
 ctrl + space = intelisense
+
+
+
+### Spring 
+## bajar las librerias desde la url  : https://repo.spring.io/native/release/org/springframework/spring/5.2.9.RELEASE/spring-5.2.9.RELEASE-dist.zip
