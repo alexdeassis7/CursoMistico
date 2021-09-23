@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: films-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/films?serverTimezone=UTC
+    username: root
+    password: secret
+  jpa:
+    hibernate:
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy  
+server:
+  port: 8001
+# config de el servidor de Eureka         
